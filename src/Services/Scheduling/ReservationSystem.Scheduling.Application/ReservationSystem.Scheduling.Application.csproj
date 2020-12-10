@@ -10,7 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\Base\ReservationSystem.Base.Services\ReservationSystem.Base.Services.csproj" />
-    <ProjectReference Include="..\..\Reservations\ReservationSystem.Reservations.Api.Client\ReservationSystem.Reservations.Api.Contracts.csproj" />
+    <ProjectReference Include="..\..\Reservations\ReservationSystem.Reservations.Api.Contracts\ReservationSystem.Reservations.Api.Contracts.csproj" />
     <ProjectReference Include="..\ReservationSystem.Scheduling.Domain\ReservationSystem.Scheduling.Domain.csproj" />
   </ItemGroup>
 

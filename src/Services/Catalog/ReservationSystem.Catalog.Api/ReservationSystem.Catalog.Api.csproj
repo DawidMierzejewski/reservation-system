@@ -23,7 +23,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\..\Base\ReservationSystem.Base.Services.Outbox\ReservationSystem.Base.Services.Outbox.csproj" />
     <ProjectReference Include="..\..\Reservations\ReservationSystem.Reservations.Api\ReservationSystem.Reservations.Api.csproj" />
-    <ProjectReference Include="..\ReservationSystem.Catalog.Api.Client\ReservationSystem.Catalog.Api.Contracts.csproj" />
+    <ProjectReference Include="..\ReservationSystem.Catalog.Api.Contracts\ReservationSystem.Catalog.Api.Contracts.csproj" />
     <ProjectReference Include="..\ReservationSystem.Catalog.Api.Core\ReservationSystem.Catalog.Core.csproj" />
   </ItemGroup>
 

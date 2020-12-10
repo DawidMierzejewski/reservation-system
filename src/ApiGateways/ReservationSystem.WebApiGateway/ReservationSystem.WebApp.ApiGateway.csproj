@@ -18,8 +18,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Base\ReservationSystem.Base\ReservationSystem.Base.csproj" />
-    <ProjectReference Include="..\..\Services\Catalog\ReservationSystem.Catalog.Api.Client\ReservationSystem.Catalog.Api.Contracts.csproj" />
-    <ProjectReference Include="..\..\Services\Reservations\ReservationSystem.Reservations.Api.Client\ReservationSystem.Reservations.Api.Contracts.csproj" />
+    <ProjectReference Include="..\..\Services\Catalog\ReservationSystem.Catalog.Api.Contracts\ReservationSystem.Catalog.Api.Contracts.csproj" />
+    <ProjectReference Include="..\..\Services\Reservations\ReservationSystem.Reservations.Api.Contracts\ReservationSystem.Reservations.Api.Contracts.csproj" />
     <ProjectReference Include="..\..\Services\Scheduling\ReservationSystem.Scheduling.Api.Contracts\ReservationSystem.Scheduling.Api.Contracts.csproj" />
   </ItemGroup>
 

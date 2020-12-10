@@ -13,7 +13,7 @@
     <ProjectReference Include="..\..\..\Base\ReservationSystem.Base.Services.Outbox\ReservationSystem.Base.Services.Outbox.csproj" />
     <ProjectReference Include="..\..\..\Base\ReservationSystem.Base.Services\ReservationSystem.Base.Services.csproj" />
     <ProjectReference Include="..\..\..\Base\ReservationSystem.Base\ReservationSystem.Base.csproj" />
-    <ProjectReference Include="..\ReservationSystem.Catalog.Api.Client\ReservationSystem.Catalog.Api.Contracts.csproj" />
+    <ProjectReference Include="..\ReservationSystem.Catalog.Api.Contracts\ReservationSystem.Catalog.Api.Contracts.csproj" />
   </ItemGroup>
 
 </Project>

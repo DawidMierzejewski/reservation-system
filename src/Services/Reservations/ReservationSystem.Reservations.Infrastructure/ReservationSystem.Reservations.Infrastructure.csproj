@@ -6,9 +6,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\Base\ReservationSystem.Base.Services.Outbox\ReservationSystem.Base.Services.Outbox.csproj" />
-    <ProjectReference Include="..\..\Catalog\ReservationSystem.Catalog.Api.Client\ReservationSystem.Catalog.Api.Contracts.csproj" />
+    <ProjectReference Include="..\..\Catalog\ReservationSystem.Catalog.Api.Contracts\ReservationSystem.Catalog.Api.Contracts.csproj" />
     <ProjectReference Include="..\..\Scheduling\ReservationSystem.Scheduling.Api.Contracts\ReservationSystem.Scheduling.Api.Contracts.csproj" />
-    <ProjectReference Include="..\ReservationSystem.Reservations.Api.Client\ReservationSystem.Reservations.Api.Contracts.csproj" />
+    <ProjectReference Include="..\ReservationSystem.Reservations.Api.Contracts\ReservationSystem.Reservations.Api.Contracts.csproj" />
     <ProjectReference Include="..\ReservationSystem.Reservations.Domain\ReservationSystem.Reservations.Domain.csproj" />
   </ItemGroup>
 

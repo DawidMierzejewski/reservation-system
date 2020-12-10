@@ -27,7 +27,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReservationSystem.Catalog.A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApp", "WebApp", "{2A1C14A7-1A0E-4772-B9FE-B53A325E5D5B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReservationSystem.Reservations.Api.Contracts", "Services\Reservations\ReservationSystem.Reservations.Api.Client\ReservationSystem.Reservations.Api.Contracts.csproj", "{7FB2C06C-F647-4D6E-901E-420FCEFF0615}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReservationSystem.Reservations.Api.Contracts", "Services\Reservations\ReservationSystem.Reservations.Api.Contracts\ReservationSystem.Reservations.Api.Contracts.csproj", "{7FB2C06C-F647-4D6E-901E-420FCEFF0615}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReservationSystem.Reservations.Application", "Services\Reservations\ReservationSystem.Reservations.Application\ReservationSystem.Reservations.Application.csproj", "{B2676DA4-20FF-47E8-B5C4-B2E73B6769FB}"
 EndProject
@@ -35,7 +35,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReservationSystem.Reservati
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReservationSystem.Reservations.Infrastructure", "Services\Reservations\ReservationSystem.Reservations.Infrastructure\ReservationSystem.Reservations.Infrastructure.csproj", "{14B4290F-7615-42A1-9CB0-311F02124643}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReservationSystem.Catalog.Api.Contracts", "Services\Catalog\ReservationSystem.Catalog.Api.Client\ReservationSystem.Catalog.Api.Contracts.csproj", "{C14A324C-62D8-4D69-BB4E-0094D4B0BAFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReservationSystem.Catalog.Api.Contracts", "Services\Catalog\ReservationSystem.Catalog.Api.Contracts\ReservationSystem.Catalog.Api.Contracts.csproj", "{C14A324C-62D8-4D69-BB4E-0094D4B0BAFB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Base", "Base", "{B2348D1F-FF67-4592-8F05-F3EB695192DA}"
 EndProject
