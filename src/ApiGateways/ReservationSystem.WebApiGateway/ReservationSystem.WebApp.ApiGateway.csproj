@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.1.0-preview1.19506.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.0-preview1-19509-03" />
+    <PackageReference Include="Refit" Version="5.2.1" />
+    <PackageReference Include="Refit.HttpClientFactory" Version="5.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Base\ReservationSystem.Base\ReservationSystem.Base.csproj" />
+    <ProjectReference Include="..\..\Services\Catalog\ReservationSystem.Catalog.Api.Client\ReservationSystem.Catalog.Api.Contracts.csproj" />
+    <ProjectReference Include="..\..\Services\Reservations\ReservationSystem.Reservations.Api.Client\ReservationSystem.Reservations.Api.Contracts.csproj" />
+    <ProjectReference Include="..\..\Services\Scheduling\ReservationSystem.Scheduling.Api.Contracts\ReservationSystem.Scheduling.Api.Contracts.csproj" />
+  </ItemGroup>
+
+
+</Project>

@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Base\ReservationSystem.Base.Services.Outbox\ReservationSystem.Base.Services.Outbox.csproj" />
+    <ProjectReference Include="..\..\..\Base\ReservationSystem.Base.Services\ReservationSystem.Base.Services.csproj" />
+    <ProjectReference Include="..\ReservationSystem.Scheduling.Api.Contracts\ReservationSystem.Scheduling.Api.Contracts.csproj" />
+    <ProjectReference Include="..\ReservationSystem.Scheduling.Domain\ReservationSystem.Scheduling.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

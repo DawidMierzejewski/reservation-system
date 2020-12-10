@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Base\ReservationSystem.Base.Services\ReservationSystem.Base.Services.csproj" />
+    <ProjectReference Include="..\..\..\Base\ReservationSystem.Base\ReservationSystem.Base.csproj" />
+    <ProjectReference Include="..\ReservationSystem.Reservations.Domain\ReservationSystem.Reservations.Domain.csproj" />
+    <ProjectReference Include="..\ReservationSystem.Reservations.Infrastructure\ReservationSystem.Reservations.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
